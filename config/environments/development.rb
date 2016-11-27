@@ -43,7 +43,7 @@ Rails.application.configure do
   config.assets.debug = true
   
   #mailling
-  config.action.mailer.smtp_setting = {
+  config.action_mailer.smtp_setting = {
     address: "smtp.sengrid.net",
     port: 587,
     domain: Rails.application.secrets.domain_name,
