@@ -42,3 +42,19 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# gems
+# Front-end frame-word
+gem 'bootstrap-sass'
+# Access Mailchimp API
+gem 'gibbon'
+# For static page like "about"
+gem 'high_voltage'
+# Form made easy
+gem 'simple_form'
+group :development do
+# help when thing when wrong
+  gem 'better_errors'
+# generate files for an application layout
+  gem 'rails_layout'
+end
